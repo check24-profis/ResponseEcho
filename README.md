@@ -1,8 +1,7 @@
 # ResponseEcho
 Java Spring web app that receives an encoded network response info via URL params. It then decodes, unpacks and displays it on a page.
 
-[![Build Status](https://api.travis-ci.org/simonpercic/ResponseEcho.svg?branch=master)](https://travis-ci.org/simonpercic/ResponseEcho)
-
+[![Java CI with Gradle](https://github.com/kibotu/ResponseEcho/actions/workflows/gradle.yml/badge.svg)](https://github.com/kibotu/ResponseEcho/actions/workflows/gradle.yml)
 
 ## Purpose
 Used as a complementary web app for [OkLog](https://github.com/simonpercic/OkLog).

@@ -7,6 +7,13 @@ Java Spring web app that receives an encoded network response info via URL param
 Used as a complementary web app for [OkLog](https://github.com/simonpercic/OkLog).
 
 
+## Docker
+
+```bash
+docker build -f Dockerfile -t response-echo .
+docker run -d -p 8080:8080 response-echo
+```
+
 ## Run
 ```
 cd ResponseEcho

@@ -3,7 +3,7 @@ FROM eclipse-temurin:17-jdk-jammy as build
 RUN apt-get update \
     && apt-get install -y git
 
-RUN git clone https://github.com/kibotu/ResponseEcho.git
+RUN git clone https://github.com/check24-profis/ResponseEcho.git
 
 WORKDIR ResponseEcho
 
